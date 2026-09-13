@@ -1,0 +1,85 @@
+[gd_scene format=3 uid="uid://bf4qawpw2iym6"]
+
+[ext_resource type="Script" uid="uid://bd263u2ywrq1p" path="res://memorama.gd" id="1_3dkfj"]
+[ext_resource type="Texture2D" uid="uid://ga0lmy8qidm2" path="res://Assets/layer07_Sky.png" id="1_ux7sy"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_d8h43"]
+load_path = "res://.godot/imported/Blue.png-7d44080c477d302cd4d04cf4d7e48fd0.ctex"
+
+[node name="Memorama" type="Node2D" unique_id=1108114195]
+texture_filter = 1
+script = ExtResource("1_3dkfj")
+
+[node name="Background" type="Sprite2D" parent="." unique_id=1403247900]
+scale = Vector2(0.6, 0.6)
+texture = ExtResource("1_ux7sy")
+centered = false
+
+[node name="GridContainer" type="GridContainer" parent="." unique_id=1332557548]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 76.0
+offset_top = 20.0
+offset_right = 568.0
+offset_bottom = 324.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2, 2)
+columns = 4
+
+[node name="Carta1" type="TextureButton" parent="GridContainer" unique_id=1860981838]
+custom_minimum_size = Vector2(120, 150)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_d8h43")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Carta2" type="TextureButton" parent="GridContainer" unique_id=1700367421]
+custom_minimum_size = Vector2(120, 150)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_d8h43")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Carta3" type="TextureButton" parent="GridContainer" unique_id=181571545]
+custom_minimum_size = Vector2(120, 150)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_d8h43")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Carta4" type="TextureButton" parent="GridContainer" unique_id=2024540538]
+custom_minimum_size = Vector2(120, 150)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_d8h43")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Carta5" type="TextureButton" parent="GridContainer" unique_id=1868217127]
+custom_minimum_size = Vector2(120, 150)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_d8h43")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Carta6" type="TextureButton" parent="GridContainer" unique_id=1855632513]
+custom_minimum_size = Vector2(120, 150)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_d8h43")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Carta7" type="TextureButton" parent="GridContainer" unique_id=1074642654]
+custom_minimum_size = Vector2(120, 150)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_d8h43")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="Carta8" type="TextureButton" parent="GridContainer" unique_id=543490957]
+custom_minimum_size = Vector2(120, 150)
+layout_mode = 2
+texture_normal = SubResource("CompressedTexture2D_d8h43")
+ignore_texture_size = true
+stretch_mode = 5
